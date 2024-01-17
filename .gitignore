@@ -1,0 +1,7 @@
+build/
+sdkconfig.old
+*.o
+
+dependencies.lock
+examples/
+components/*
