@@ -62,6 +62,10 @@ void Game::loop(){
         _running = true;
         _gameOver = false;
     }
+    // start deep sleep on start button pressed
+    if(tmpData->miscButtons & 0x01){
+        esp_deep_sleep_start();
+    }
 
     screen->fillSprite(TFT_BLACK);
 
