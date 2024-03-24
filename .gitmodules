@@ -1,6 +1,14 @@
-[submodule "components/arduino"]
+[submodule "arduino"]
 	path = components/arduino
 	url = https://github.com/espressif/arduino-esp32.git
-[submodule "components/TFT_eSPI"]
+[submodule "TFT_eSPI"]
 	path = components/TFT_eSPI
 	url = https://github.com/Bodmer/TFT_eSPI.git
+
+[submodule "btstack"]
+	path = components/btstack
+	url = https://github.com/kamo104/btstack.git
+
+[submodule "bluepad32"]
+	path = components/bluepad32
+	url = https://github.com/kamo104/bluepad32.git
