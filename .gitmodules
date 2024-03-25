@@ -5,10 +5,12 @@
 	path = components/TFT_eSPI
 	url = https://github.com/Bodmer/TFT_eSPI.git
 
-[submodule "btstack"]
-	path = components/btstack
-	url = https://github.com/kamo104/btstack.git
-
 [submodule "bluepad32"]
 	path = components/bluepad32
 	url = https://github.com/kamo104/bluepad32.git
+[submodule "btstack"]
+	path = components/btstack
+	url = https://github.com/kamo104/btstack.git
+[submodule "bluepad32_arduino"]
+	path = components/bluepad32_arduino
+	url = https://github.com/kamo104/bluepad32_arduino.git
