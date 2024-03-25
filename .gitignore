@@ -4,4 +4,3 @@ sdkconfig.old
 
 dependencies.lock
 examples/
-components/*
